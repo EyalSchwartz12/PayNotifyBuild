@@ -1,0 +1,23 @@
+{
+	"schemaVersion": 1,
+	"id": "paynotify",
+	"version": "${version}",
+	"name": "PayNotify",
+	"description": "Adds clickable [2X] [R] [X] buttons to the end of DonutSMP \"paid you\" chat messages. Client-side only. Never sends money.",
+	"authors": [
+		"PayNotify"
+	],
+	"license": "MIT",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"com.paynotify.PayNotifyClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.18.0",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
